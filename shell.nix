@@ -6,5 +6,7 @@ in
 pkgs.mkShell {
   buildInputs = [
     rust
+    pkgs.cargo-watch
+    pkgs.systemfd
   ];
 }

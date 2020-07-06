@@ -8,5 +8,6 @@ pkgs.mkShell {
     rust
     pkgs.cargo-watch
     pkgs.systemfd
+    pkgs.nghttp2
   ];
 }
